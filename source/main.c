@@ -67,12 +67,6 @@ int main(void) {
     while (1) {
 		rock = ADC;
 		my_short = rock;
-	/*if (my_short > max_light) {
-		max_light = my_short;
-	} 
-	if (my_short < min_light) {
-		min_light = my_short;
-	}*/
 		my_char = (char)(my_short); // my_char = 0xAB
 		if (test == 0) {
 			my_sol = my_char;
